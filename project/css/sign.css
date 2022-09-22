@@ -1,0 +1,167 @@
+body {
+    background-color: #FFDFD3;
+}
+
+.menu {
+    width: 100%;
+    height: 60px;
+    margin-bottom: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu img {
+    height: 150px;
+    width: 150px;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.menu li {
+    display: inline-block;
+    padding: 10px 40px;
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu a {
+    color: #E0BBE4;
+    text-decoration: none;
+}
+
+.menu a:hover {
+    color: #D291BC;
+}
+
+.registration {
+    margin: auto;
+    margin-top: 50px;
+    height: 550px;
+    width: 700px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E0BBE4;
+    padding-top: 5px;
+}
+
+.registration h1 {
+    text-align: center;
+    margin-top: 0px;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+.registration .reg {
+    width: 100%;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.reg input {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    width: 43%;
+    height: 40px;
+    border-radius: 10px;
+    top: 5px;
+    color: aliceblue;
+    font-size: 18px;
+    background-color: transparent;
+    box-shadow: 5px 5px 8px gray;
+}
+
+.registration button {
+    position: relative;
+    display: flex;
+    margin: auto;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+    background-color: #e48eee;
+    border: none;
+    color: #fff;
+}
+.login {
+    margin: auto;
+    height: 400px;
+    width: 500px;
+    border: none;
+    border-radius: 20px;
+    background-color: #E0BBE4;
+    margin-top: 50px;
+    padding-top: 5px;
+}
+.login h1 {
+    margin-top: 10px;
+    font-size: 40px;
+    text-align: center;
+    font-family: cursive;
+}
+.login .inp {
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.login .inp input {
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 80%;
+    height: 35px;
+    border-radius: 10px;
+    top: 10px;
+    color: aliceblue;
+    font-size: 15px;
+    background-color: transparent;
+    box-shadow: 5px 5px 8px black;
+}
+.login .inp a {
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+}
+.login .inp button {
+    position: relative;
+    top: 70px;
+    right: 180px;
+    align-items: center;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 10px 30px;
+    transition: 0.5s;
+    position: relative;
+    font-size: 17px;
+    background-color: #e48eee;
+    border: none;
+    color: #fff;
+}
+
+button:hover {
+    letter-spacing: 0.25em;
+    background: #D291BC;
+    color: #e48eee;
+    box-shadow: 0 0 45px #404074;
+}
+  
+button::before {
+    content: '';
+    position: absolute;
+    inset: 2px;
+}
+  

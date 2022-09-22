@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="menu">
+        <button onclick="window.location.href='signin.html'">
+            <p>Log Out</p>
+            <img src="photos/log_out.png" alt="icon">
+        </button>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/arie.png" alt="aries">
+       <div class="desc">Aries <br> March 21 - April 19</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/taurus.png" alt="aries">
+       <div class="desc">Taurus <br> April 20 - May 20</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/gemin.png" alt="aries">
+        <div class="desc">Gemini <br> May 21 - June 19</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/cancer.png" alt="aries">
+       <div class="desc">Cancer <br> June22 - July 22</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/Leo.png" alt="aries">
+       <div class="desc">Leo <br> July 23 - August 22</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/virgo.png" alt="aries">
+       <div class="desc">virgo <br> August 23 - September 22</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/libra.png" alt="aries">
+       <div class="desc">Libra <br> September23 - October 23</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/scorpio.png" alt="aries">
+       <div class="desc">scorpio <br> October24 - November 21</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/sagittarious.png" alt="aries">
+       <div class="desc">sagittarious <br> November 22 - December 21</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/cancer.png" alt="aries">
+       <div class="desc">Capricorn <br> December 22 - January 19</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/aquarius.png" alt="aries">
+       <div class="desc">aquarius <br> January 20 - February 18</div>
+    </div>
+    <div class="gallery">
+        <img class="img" src="photos/sign/pisces.png" alt="aries">
+       <div class="desc">pisces <br> February 19 - March 20</div>
+    </div>
+
+    <div class="your_sign">
+        <div class="enter">
+            <label>შეიყვანეთ დაბადების თვე:</label> 
+            <input type="number" id="month" placeholder="თვე" min="1" max="12">
+        </div>
+        <div class="enter">
+            <label>შეიყვანეთ დაბადების დღე:</label> 
+            <input type="number" id="day" placeholder="დღე" min="1" max="31">
+        </div>
+        <button id="btn" onclick="zodiac_calculator()">გამოთვლა</button>
+        <div id="zodiac_here" ></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
